@@ -29,7 +29,7 @@ url.data = 'https://raw.githubusercontent.com/szalam/R-tutorial/master/R_tutoria
 #destinatin in computer where the data will be downloaded
 setwd('C:/sarfaraz/Project_R_tutorials/R-tutorial/R_beginner_part2_files/')
 
-#download data
+#download data. if download.file() doesn't work then install R package "utils" 
 download.file(url = url.data, destfile = 'R_tutorial_part2_data.zip', method="auto")
 
 #unzip data
